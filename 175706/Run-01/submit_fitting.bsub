@@ -1,0 +1,10 @@
+#!/bin/bash 
+#BSUB -q short 
+#BSUB -oo fitting.out
+#BSUB -eo fitting.err  
+#BSUB -n 10 
+
+export OMP_SET_NUM_THREADS=10;
+
+./fitting;
+

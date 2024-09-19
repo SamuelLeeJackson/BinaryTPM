@@ -1,0 +1,51 @@
+Sender: LSF System <lsfadmin@stem-cluster-18>
+Subject: Job 649434: <#!/bin/bash ;#BSUB -q short ;#BSUB -oo plotting.out;#BSUB -eo plotting.err  ;#BSUB -n 1; source ~/.bashrc; source ~/.bash_profile; conda activate /STEM/scratch.san/slj362/atpm_env; python plot_wise_results.py> in cluster <stem> Done
+
+Job <#!/bin/bash ;#BSUB -q short ;#BSUB -oo plotting.out;#BSUB -eo plotting.err  ;#BSUB -n 1; source ~/.bashrc; source ~/.bash_profile; conda activate /STEM/scratch.san/slj362/atpm_env; python plot_wise_results.py> was submitted from host <stem-cluster-lsf.open.ac.uk> by user <slj362> in cluster <stem>.
+Job was executed on host(s) <stem-cluster-18>, in queue <short>, as user <slj362> in cluster <stem>.
+</home/stem/slj362> was used as the home directory.
+</STEM/scratch.san/slj362/ATPM> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash 
+#BSUB -q short 
+#BSUB -oo plotting.out
+#BSUB -eo plotting.err  
+#BSUB -n 1
+
+source ~/.bashrc;
+source ~/.bash_profile;
+conda activate /STEM/scratch.san/slj362/atpm_env;
+python plot_wise_results.py;
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24.62 sec.
+    Max Memory :                                 129 MB
+    Average Memory :                             65.00 MB
+    Total Requested Memory :                     12000.00 MB
+    Delta Memory :                               11871.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                44
+    Run time :                                   22 sec.
+    Turnaround time :                            23 sec.
+
+The output (if any) follows:
+
+$\text{Diameter} = 1554 \pm 19\,\text{km}$
+$\text{Thermal Inertia} = 142 \pm 6\,\text{J}\,\text{m}^{-2}\,\text{K}^{-1}\,\text{s}^{-1/2}$
+$\text{Roughness Fraction} = 0.31 \pm 0.06$
+
+
+PS:
+
+Read file <plotting.err> for stderr output of this job.
+

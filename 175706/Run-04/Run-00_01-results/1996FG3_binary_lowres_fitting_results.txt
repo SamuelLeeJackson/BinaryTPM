@@ -1,0 +1,2 @@
+Spectrum Number,Minimum Chi-Square,Average Diameter,Diameter Uncertainty,Average pv,pv Uncertainty,Average Thermal Inertia,Thermal Inertia Uncertainty,Average Roughness,Roughness Uncertainty,Average H,H Uncertainty,Average G,G Uncertainty,Average Phase Offset,Phase Offset Uncertainty,Average FCF,FCF Uncertainty
+0,90.4548,1584.44,19.0405,0.051794,0.0012469,154.444,8.76501,0.201389,0.0566772,17.833,1.44124e-14,-0.041,1.40746e-17,1863,0,0.994854,0.000756101

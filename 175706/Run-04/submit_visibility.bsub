@@ -1,0 +1,12 @@
+#!/bin/bash 
+#BSUB -q largemem
+#BSUB -o visibility.out 
+#BSUB -e visibility.err  
+#BSUB -n 30
+#BSUB -R "defined(gpu)"
+#BSUB -R "rusage[mem=40000]"
+
+export OMP_SET_NUM_THREADS=30;
+./visibility;
+rm *part*;
+

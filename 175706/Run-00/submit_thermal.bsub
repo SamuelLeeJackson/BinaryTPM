@@ -1,0 +1,12 @@
+#!/bin/bash 
+#BSUB -q largemem
+#BSUB -oo thermal.out 
+#BSUB -eo thermal.err  
+#BSUB -n 30
+#BSUB -R "defined(gpu)"
+#BSUB -R "rusage[mem=20000]"
+
+export OMP_SET_NUM_THREADS=30;
+./thermal;
+rm *part*;
+

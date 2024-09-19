@@ -1,0 +1,10 @@
+#!/bin/bash 
+#BSUB -q short 
+#BSUB -oo plotting.out
+#BSUB -eo plotting.err  
+#BSUB -n 1
+
+source ~/.bashrc;
+source ~/.bash_profile;
+conda activate /STEM/scratch.san/slj362/atpm_env;
+python plot_wise_results.py;

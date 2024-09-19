@@ -1,0 +1,50 @@
+Sender: LSF System <lsfadmin@stem-cluster-17>
+Subject: Job 649379: <#!/bin/bash ;#BSUB -q largemem;#BSUB -oo thermal.out ;#BSUB -eo thermal.err  ;#BSUB -n 30;#BSUB -R "defined(gpu)";#BSUB -R "rusage[mem=20000]"; export OMP_SET_NUM_THREADS=30; ./thermal; rm *part*> in cluster <stem> Done
+
+Job <#!/bin/bash ;#BSUB -q largemem;#BSUB -oo thermal.out ;#BSUB -eo thermal.err  ;#BSUB -n 30;#BSUB -R "defined(gpu)";#BSUB -R "rusage[mem=20000]"; export OMP_SET_NUM_THREADS=30; ./thermal; rm *part*> was submitted from host <stem-cluster-lsf.open.ac.uk> by user <slj362> in cluster <stem>.
+Job was executed on host(s) <30*stem-cluster-17>, in queue <largemem>, as user <slj362> in cluster <stem>.
+</home/stem/slj362> was used as the home directory.
+</STEM/scratch.san/slj362/ATPM> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash 
+#BSUB -q largemem
+#BSUB -oo thermal.out 
+#BSUB -eo thermal.err  
+#BSUB -n 30
+#BSUB -R "defined(gpu)"
+#BSUB -R "rusage[mem=20000]"
+
+export OMP_SET_NUM_THREADS=30;
+./thermal;
+rm *part*;
+
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   34797.13 sec.
+    Max Memory :                                 14930 MB
+    Average Memory :                             12216.69 MB
+    Total Requested Memory :                     20000.00 MB
+    Delta Memory :                               5070.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              4
+    Max Threads :                                36
+    Run time :                                   13558 sec.
+    Turnaround time :                            13558 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <thermal.err> for stderr output of this job.
+

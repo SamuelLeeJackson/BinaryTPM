@@ -1,0 +1,9 @@
+Total Area:	9.0017
+Total Volume:	2.51367
+Min X:	-0.898	Max X:	0.898
+Min Y:	-0.898	Max Y:	0.898
+Min Z:	-0.7485	Max Z:	0.7485
+Effective Diameter:	1.68695
+Vertex Centroid:	-3.64128e-18	2.27239e-18	-5.73507e-18
+Area Centroid:	-1.92861e-18	-4.54225e-18	9.26552e-16
+Volume Centroid:	2.71733e-18	-4.91439e-18	3.26943e-16

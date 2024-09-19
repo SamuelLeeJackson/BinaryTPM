@@ -1,0 +1,10 @@
+#!/bin/bash 
+#BSUB -q largemem
+#BSUB -J observe[10-410:10]
+#BSUB -oo observe-%I.out 
+#BSUB -eo observe-%I.err  
+#BSUB -n 1
+#BSUB -R "rusage[mem=60000]"
+
+TI=$((${LSB_JOBINDEX}-10))
+./observe_${TI}
